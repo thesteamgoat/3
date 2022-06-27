@@ -1,0 +1,270 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFBD;
+	margin: 0;
+	padding: 0;
+	color: #731900;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector*/
+	padding-left: 20px;
+	margin: 0;
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+}
+a img {
+	border: none;
+}
+
+a:link {
+	color: #FFFFBD;
+}
+a:visited {
+	color: #FFFFBD;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+	width: 950px;
+	background-color: #FFFFBD;
+	border: 2px solid #FFFFBD;
+	margin: 0 auto;
+}
+
+#header {
+	background-image: url(images/banner.png);
+	height: 120px;
+	background-color: #FFFFBD;
+}
+
+.top-nav {
+	font-size: 110%;
+	font-weight: bold;
+	color: #FFFFBD;
+	background-color: #731900;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	background-repeat: repeat-x;
+}
+
+.bottom-nav {
+	font-size: 110%;
+	font-weight: bold;
+	color: #FFFFBD;
+	background-color: #731900;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	background-repeat: repeat-x;
+}
+.content {
+	padding: 10px 0;
+	width: 950px;
+	float: right;
+}
+table, th, td {
+   font-size: 90%;
+}
+table {
+	width: 100%;
+
+
+}
+th {
+	padding-top: 10px;
+
+
+	
+}
+
+th.left {
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	font-style: italic;
+
+
+	
+}
+
+td {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	/* [disabled]width: 25%; */
+	vertical-align: top;
+}
+
+div.scroll {
+	width: 213px;
+	overflow: scroll;
+	height: 194px;
+}
+
+
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+#nav ul{
+	list-style: none;
+}
+#nav1 ul{
+	list-style: none;
+}
+#nav2 ul{
+	list-style: none;
+}
+#nav3 ul{
+	list-style: none;
+}
+#nav4 ul{
+	list-style: none;
+}
+#nav5 ul{
+	list-style: none;
+}
+#nav li {
+	display: inline;
+}
+#nav1 li {
+	display: inline;
+}
+#nav2 li {
+	display: inline;
+}
+#nav3 li {
+	display: inline;
+}
+#nav4 li {
+	display: inline;
+}
+#nav5 li {
+	display: inline;
+}
+#nav a, nav a:visited {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	width: 160px;
+	text-decoration: none;
+	background-color: #731900;
+}
+#nav1 a, nav1 a:visited {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	width: 160px;
+	text-decoration: none;
+	background-color: #731900;
+}
+#nav2 a, nav2 a:visited {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	width: 160px;
+	text-decoration: none;
+	background-color: #731900;
+}
+#nav3 a, nav3 a:visited {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	width: 160px;
+	text-decoration: none;
+	background-color: #731900;
+}
+#nav4 a, nav4 a:visited {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	width: 160px;
+	text-decoration: none;
+	background-color: #731900;
+}
+#nav5 a, nav5 a:visited {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	width: 160px;
+	text-decoration: none;
+	background-color: #731900;
+}
+#nav a:hover, nav a:active, nav a:focus {
+	background-color: #F7931E;
+	color: #FFFFBD;
+}
+
+#nav1 a:hover, nav1 a:active, nav1 a:focus {
+	background-color: #F7931E;
+	color: #FFFFBD;
+}
+#nav2 a:hover, nav2 a:active, nav2 a:focus {
+	background-color: #F7931E;
+	color: #FFFFBD;
+}
+#nav3 a:hover, nav3 a:active, nav3 a:focus {
+	background-color: #F7931E;
+	color: #FFFFBD;
+}
+#nav4 a:hover, nav4 a:active, nav4 a:focus {
+	background-color: #F7931E;
+	color: #FFFFBD;
+}
+#nav5 a:hover, nav5 a:active, nav5 a:focus {
+	background-color: #F7931E;
+	color: #FFFFBD;
+}
+
+#article {
+	height: 420px;
+}
+
+/* ~~ The footer ~~ */
+#footer {
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: #FFFFBD;
+	position: relative;
+	clear: both;
+	color: #731900;
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+header, section, footer, aside, article, figure {
+	display: block;
+}
+.container .content {
+}
+.container .content {
+}
